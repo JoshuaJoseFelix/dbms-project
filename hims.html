@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Student Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Hostel Management</div>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">My Room</a></li>
+                <li><a href="#">Inventory</a></li>
+                <li><a href="#">Request</a></li>
+                <li><a href="#">Status</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h1>Welcome, 23bcs288 !</h1>
+            <div class="quick-stats">
+                <div class="stat-card">Current Room Status</div>
+                <div class="stat-card">Request</div>
+                <div class="stat-card">Inventory Alerts</div>
+            </div>
+            <div class="action-buttons">
+                <button>View My Room</button>
+                <button>Check Inventory</button>
+            </div>
+        </section>
+
+        <section class="my-rooms">
+            <h2>My Room</h2>
+            <div class="room-details">
+                <p>Room Number:A 101</p>
+                <p>Type: Triple sharing Room</p>
+                <p>Status: Occupied</p>
+                <p>Amenities:Table,Chair,Bed,Fan,Light</p>
+                <button>Request Maintenance</button>
+                <button>Check-out</button>
+            </div>
+        </section>
+
+        <section class="inventory">
+            <h2>Inventory</h2>
+            <input type="text" placeholder="Search for items...">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Quantity Available</th>
+                        <th>Status</th>
+                        <th>Request</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chair</td>
+                        <td>85</td>
+                        <td>Available</td>
+                        <td><button>Request</button></td>
+                    </tr>
+                    <tr>
+                        <td>table</td>
+                        <td>25</td>
+                        <td>Available</td>
+                        <td><button>Request</button></td>
+                    </tr>
+                    <tr>
+                        <td>Tube Light</td>
+                        <td>0</td>
+                        <td>Not Available</td>
+                        
+                    </tr>
+                </tbody>
+           </table>
+            <button>Add Item Request</button>
+        </section>
+  
+    </main>
+
+    <footer>
+        <p>Contact Info: Vivekananda Hostel | Caretakerhall4@iiitdmj.ac.in | Wardenhall4@iiitdmj.ac.in </p>
+    </footer>
+</body>
+</html>
